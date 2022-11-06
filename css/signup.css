@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: #e5e5e5;
+}
+
+nav {
+  height: 70px;
+  width: auto;
+  position: relative;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
+  background: #ffffff;
+}
+
+nav img {
+  display: block;
+  width: 262px;
+  height: 42.75px;
+  margin: auto;
+  padding: 15px;
+}
+
+.container {
+  border: 1px solid rgba(68, 75, 171, 0.1);
+  width: 500px;
+  height: 520px;
+  margin: 30px auto;
+  background: white;
+}
+
+.container h1 {
+  color: #4f516b;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 30px;
+}
+
+.container p {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin: 20px 0 5px 0;
+  font-size: 15px;
+  color: #737171;
+  font-weight: 400;
+}
+
+form input {
+  width: 442px;
+  height: 35px;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  outline: none;
+  padding-left: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  width: 453px;
+  height: 35px;
+  border: none;
+  background: linear-gradient(93.44deg, #444bab -6.8%, #3ca5c2 186.94%);
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  align-items: center;
+  color: white;
+}
+
+#set {
+  margin-top: 45px;
+  color: white;
+}
+
+#or {
+  margin: 30px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#account {
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 15px;
+  padding-top: 50px;
+}
+
+#btn-signup {
+  margin-top: 40px;
+}
+
+#account a {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.google_signup {
+  text-align: center;
+}
+
+.google_signup a:link,
+a:visited {
+  padding: 5px 135px;
+  color: #444bab;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1.5px solid #444bab;
+  border-radius: 6px;
+}
+
+.google_signup img {
+  width: 15px;
+  margin-bottom: -2px;
+  margin-right: 4px;
+}
+
+.material-symbols-outlined {
+  display: flex;
+  transform: translate(1740%, -130%);
+  color: #797979;
+  cursor: pointer;
+  font-size: 20px;
+}
